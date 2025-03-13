@@ -12,6 +12,16 @@
 
 
 
+
+img {
+    border-radius: 25px;
+    
+}
+
+
+
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -19,4 +29,16 @@
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+} 
+
+
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
 }
